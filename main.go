@@ -6,7 +6,7 @@ func main() {
 	say("hello")
 }
 
-//say hello
+// say hello
 func say(hello string) {
-	fmt.Print("hello")
+	fmt.Print(hello)
 }
