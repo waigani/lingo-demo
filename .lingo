@@ -1,0 +1,23 @@
+# Common tenets for Go
+
+cascade = false
+include = "*"
+template = ""
+
+[[tenet_group]]
+  name = "default"
+
+  [[tenet_group.tenet]]
+    name = "lingoreviews/unused_arg"
+    driver = "docker"
+    tag = ""
+    registry = ""
+    [tenet_group.tenet.options]
+
+  [[tenet_group.tenet]]
+    name = "lingoreviews/slasher"
+    driver = "docker"
+    tag = ""
+    registry = ""
+    [tenet_group.tenet.options]
+
